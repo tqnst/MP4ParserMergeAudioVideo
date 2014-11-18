@@ -1,0 +1,29 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    
+    <Button
+        android:id="@+id/append"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Append"
+        />
+    
+    <Button
+        android:id="@+id/crop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crop"
+        />
+    
+    <Button
+        android:id="@+id/sub_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SubTitle"
+        />
+    
+</LinearLayout>
