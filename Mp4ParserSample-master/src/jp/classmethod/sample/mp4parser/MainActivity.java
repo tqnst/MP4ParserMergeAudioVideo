@@ -55,12 +55,7 @@ public class MainActivity extends FragmentActivity implements LoaderCallbacks<Bo
 		findViewById(R.id.append).setOnClickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				/*
-				mProgressDialog = ProgressDialog.show(self, null, null);
-				Bundle args = new Bundle();
-				args.putInt("type", 0);
-				getSupportLoaderManager().initLoader(0, args, self);
-				*/
+				
 				String root = Environment.getExternalStorageDirectory().toString();
 				String audio = root + "/"+"audio_Capturing-190814-034638.422.m4a";
 				String video = root + "/"+"game_capturing-190814-034638.378.mp4";
